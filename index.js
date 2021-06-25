@@ -23,6 +23,4 @@ app.get('/app-develop-projects', (req, res)=>{
 })
 
 
-app.listen(3000, ()=>{
-    console.log('listening on port')
-});
+app.listen(process.env.PORT || 5000);
