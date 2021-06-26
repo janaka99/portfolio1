@@ -200,8 +200,7 @@ section{
 }
 
 .about .content .social-row  .social .bx .linkedin:hover{
-    transition: 0.3s;
-    background-image: url(../images/linkedin-hover.png);
+    background-color: aliceblue;
 }
 .about .content .social-row  .social .bx .instagram{
     position: relative;
@@ -214,8 +213,7 @@ section{
 
 }
 .about .content .social-row  .social .bx .instagram:hover{
-    transition: 0.3s;
-    background-image: url(../images/instagram-cover.png);
+    background-color: aliceblue;
 }
 
 .about .content .social-row  .social .bx .github{
@@ -230,8 +228,7 @@ section{
 }
 
 .about .content .social-row  .social .bx .github:hover{
-    transition: 0.3s;
-    background-image: url(../images/github-hover.png);
+    background-color: aliceblue;
 }
 .about .content .social-row  .social .bx .facebook{
     position: relative;
@@ -245,8 +242,7 @@ section{
 }
 
 .about .content .social-row  .social .bx .facebook:hover{
-    transition: 0.3s;
-    background-image: url(../images/facebook-hover.png);
+    background-color: aliceblue;
 }
 .about .content .social-row  .social .bx .twitter{
     position: relative;
@@ -260,8 +256,7 @@ section{
 }
 
 .about .content .social-row  .social .bx .twitter:hover{
-    transition: 0.3s;
-    background-image: url(../images/twitter-hover.png);
+    background-color: aliceblue;
 }
 
 /* .about .content .social-row  .social img:hover{
@@ -532,7 +527,7 @@ section{
 
     header .navigation.nav-active{
         position: absolute;
-        top: 7vh;
+        top: 45px;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
