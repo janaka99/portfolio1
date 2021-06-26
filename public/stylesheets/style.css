@@ -10,7 +10,7 @@
 }
 
 header{
-    height: 8vh;
+    height: 45px;
     background-color: whitesmoke;
     width: 100%;
     display: flex;
@@ -44,13 +44,13 @@ header .navigation {
 header .navigation li {
     list-style: none;
     margin: 0 30px;
-    color: rgb(115, 0, 255);
+    color: rgb(32,88,255);
     cursor: pointer;
 }
 
 header .navigation li a{
     text-decoration: none;
-    color: rgb(117, 11, 247);
+    color: rgb(32,88,255);
     font-weight: 600;
     cursor: pointer;
 }
@@ -62,7 +62,6 @@ section{
 .banner {
     position: relative;
     width: 100%;
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,13 +83,14 @@ section{
 .btn{
     font-size: 1em;
     color: white;
-    background-color: rgb(117, 11, 247);
+    background-color: rgb(32,88,255);
     display: inline-block;
     margin-top: 30px;
     letter-spacing: 2px;
     transition: 0.6s;
-    border-color: rgb(117, 11, 247);
+    border-color: rgb(32,88,255);
 }
+
 
 .btn-bx{
     padding: 10px 30px;
@@ -99,12 +99,12 @@ section{
 .btn a{
     text-decoration: none;
     color: white;
-    background-color: rgb(117, 11, 247);
+    background-color: rgb(32,88,255);
     display: inline-block;
     padding: 10px 30px;
     letter-spacing: 2px;
     transition: 0.6s;
-    border-color: rgb(117, 11, 247);
+    border-color: rgb(32,88,255);
 }
 
 
@@ -115,7 +115,7 @@ section{
 
 .btn-bx:hover{
     background-color: white;
-    color:rgb(117, 11, 247) ;
+    color:rgb(32,88,255) ;
 }
 
 
@@ -132,13 +132,14 @@ section{
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-between;
+    margin: 0 auto;
+    justify-content: center;
 
 }
-.row .col{
+/* .row .col{
     position: relative;
     width: 48%;
-}
+} */
 .row .col-bx{
     width: 100%;
     position: relative;
@@ -156,7 +157,7 @@ section{
     padding-bottom: 40px;
 }
 .about .content h2 span{
-    color: rgb(117, 11, 247);
+    color: rgb(32,88,255);
 }
 
 .about .content p{
@@ -304,7 +305,7 @@ section{
     position: relative;
     width: 340px;
     height: 100%;
-    border: 1px solid rgb(117, 11, 247);
+    border: 1px solid rgb(32,88,255);
     margin: 20px;
     border-radius: 20px;
 }
@@ -342,7 +343,7 @@ section{
     padding-bottom: 40px;
 }
 .services .title h2 span{
-    color: rgb(117, 11, 247);
+    color: rgb(32,88,255);
 }
 
 
@@ -367,40 +368,46 @@ section{
 }
 
 
+
 /* --------------Contact US ----------- */
-.contact{
-    height: 100vh;
-}
-.contact  .title{
+
+.contact {
     position: relative;
-    width: 100%;
+    justify-content: center;
+}
+.contact .contact-div{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-} 
+    flex-wrap: wrap;
+}
 
-.contact .title h2{
+
+.contact .contact-div .title h2{
     font-size: 2.5em;
     padding-bottom: 40px;
 }
-.contact .title h2 span{
-    color: rgb(117, 11, 247);
+.contact .contact-div .title h2 span{
+    color: rgb(32,88,255);
 }
 
-.contact .contactForm{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.contact .contact-div .contactForm{
+        width: 100% ;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
 }
-.contact .contactForm form {
-    width: 50%;
+.contact .contact-div .contactForm form {
+    width: 500px;
     padding:10px 30px 0px 30px;
     border: 1px solid gray;
     background-color: rgba(245, 245, 245, 0.74);
     border-radius: 3px;
 }
-.contact .contactForm form .inputBox input{
+.contact .contact-div .contactForm form .inputBox input{
     position: relative;
     width: 100%;
     margin: 20px 0;
@@ -413,7 +420,7 @@ section{
     padding: 10px;
 }
 
-.contact .contactForm form .inputBox textarea{
+.contact .contact-div .contactForm form .inputBox textarea{
     position: relative;
     width: 100%;
     margin: 20px 0;
@@ -426,6 +433,8 @@ section{
     padding: 10px;
     height: 100px;
 }
+
+
 
 .btn-bx{
     top: -20px;
@@ -454,7 +463,7 @@ section{
 }
 
 .footer h5 span{
-    color:rgb(117, 11, 247);
+    color:rgb(32,88,255);
 }
 
 .burger{
@@ -467,9 +476,9 @@ section{
 .burger .burger-bar{
     width: 100%;
     height: 5px;
-    border: 1px solid rgb(117, 11, 247);
+    border: 1px solid rgb(32,88,255);
     margin: 4px 0;
-    background: rgb(117, 11, 247);
+    background: rgb(32,88,255);
    
 }
 
@@ -484,17 +493,17 @@ section{
 
 .fixedbtn{
     font-size: 1em;
-    color: rgb(117, 11, 247);
+    color: rgb(32,88,255);
     background-color: whitesmoke;
     display: inline-block;
     padding: 10px 30px;
     letter-spacing: 2px;
     transition: 0.6s;
-    border-color: rgb(117, 11, 247);
+    border-color: rgb(32,88,255);
 }
 
 .fixedbtn:hover{
-    background-color: rgb(117, 11, 247);
+    background-color: rgb(32,88,255);
     color: white;
 }
 
@@ -504,7 +513,7 @@ section{
 @media(max-width: 991px){
 
     section{
-        padding: 20px;
+        padding: 10px 10px;
     }
     .about .row .col .imgBx{
         width: 300px;
@@ -525,9 +534,9 @@ section{
         position: absolute;
         top: 7vh;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
-        height: 100vh;
+        height: 92vh;
         background: whitesmoke;
         width: 100%;
         display: flex;
@@ -555,30 +564,28 @@ section{
         width: 100%;
     }
 
-    .contact .contactForm form {
-        width: 78%;
-    }
     .banner .content h2{
         font-size: 3em;
-    }
-    .contact {
-        margin-bottom: -57px;
     }
 
 }
 
-@media(max-width:480px){
+@media(max-width:580px){
 
-
+    
     .banner .content h2{
         font-size: 2em;
     }
-    .contact .contactForm form {
-        width: 95%;
+    .contact .contact-div .contactForm form {
+        width: 100%;
     }
     .footer {
         text-align: center;
     }
+    .about{
+        padding-bottom: 20px ;
+    }
+    
 
 
 }
