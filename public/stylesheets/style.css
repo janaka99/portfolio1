@@ -277,7 +277,18 @@ section{
 }
 
 /* ----------------------------------------------------sectopn3 */
+.services{
+    position: relative;
+    justify-content: center;
+}
 
+.services .service-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .services .title{
     position: relative;
     width: 100%;
@@ -287,6 +298,7 @@ section{
 }
 
 .services .content{
+    width: 100% ;
     position: relative;
     display: flex;
     justify-content: center;
@@ -296,10 +308,10 @@ section{
 
 .services .content .box{
     position: relative;
-    width: 340px;
+    width: 330px;
     height: 100%;
     border: 1px solid rgb(32,88,255);
-    margin: 20px;
+    margin: 10px;
     border-radius: 20px;
 }
 
@@ -374,6 +386,7 @@ section{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 
@@ -503,9 +516,21 @@ section{
 
 
 
-@media(max-width: 991px){
-    
- 
+@media(max-width: 1024px){
+    section{
+        padding: 10px 10px;
+    }
+
+    .banner{
+        padding-bottom:115px ;
+        padding-top: 160px;
+
+    }
+    .about .row{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 
     .about .row .col .imgBx{
         width: 300px;
@@ -533,6 +558,7 @@ section{
         width: 100%;
         display: flex;
         opacity: 1;
+        padding: 0px 0 50px 0;
         animation: fadeIn 0.5s ease-in;
     }
 
@@ -543,6 +569,10 @@ section{
     html body.nav-active{
         overflow: hidden;
     }
+    
+.services .content .box{
+    width: 300px;
+}
 }
 
 @media(max-width:768px){
@@ -558,6 +588,7 @@ section{
 
     .about .row {
         flex-direction: column;
+
     }
     .row .col {
         width: 100%;
@@ -571,7 +602,6 @@ section{
 
 @media(max-width:580px){
 
-    
     .banner .content h2{
         font-size: 2em;
     }
